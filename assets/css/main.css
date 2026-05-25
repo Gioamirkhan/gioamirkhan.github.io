@@ -2629,18 +2629,19 @@ input, select, textarea {
 
 		.feature .image {
 			display: inline-block;
-			height: 100%;
 			overflow: hidden;
 			position: relative;
 			width: 50%;
 		}
 
 			.feature .image img {
-				display: block;
-				width: 100%;
-				height: auto;
-				position: relative;
-			}
+			display: block;
+			width: 100%;
+			height: auto;
+			position: relative;
+			min-width: unset;
+			min-height: unset;
+		}
 
 		.feature:before {
 			background: blue;
