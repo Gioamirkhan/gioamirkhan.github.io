@@ -2613,7 +2613,8 @@ input, select, textarea {
 
 	.feature {
 		position: relative;
-		height: 20em;
+		height: auto;
+		min-height: 20em;
 	}
 
 		.feature:after {
@@ -2636,11 +2637,9 @@ input, select, textarea {
 
 			.feature .image img {
 				display: block;
-				height: 100%;
 				width: 100%;
-				position: absolute;
-				object-fit: contain;
-				object-position: center;
+				height: auto;
+				position: relative;
 			}
 
 		.feature:before {
